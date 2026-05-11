@@ -1,0 +1,43 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="512" height="512" fill="url(#grad)" rx="64"/>
+  
+  <!-- Terminal -->
+  <rect x="80" y="120" width="352" height="272" rx="16" fill="#282c34"/>
+  <rect x="80" y="120" width="352" height="48" rx="16" fill="#21252b"/>
+  <rect x="80" y="152" width="352" height="16" fill="#21252b"/>
+  
+  <!-- Buttons -->
+  <circle cx="112" cy="144" r="8" fill="#ff5f56"/>
+  <circle cx="140" cy="144" r="8" fill="#ffbd2e"/>
+  <circle cx="168" cy="144" r="8" fill="#27ca40"/>
+  
+  <!-- Prompt -->
+  <text x="104" y="220" font-family="monospace" font-size="28" fill="#61afef" font-weight="bold">$</text>
+  <text x="132" y="220" font-family="monospace" font-size="26" fill="#abb2bf">linux</text>
+  
+  <!-- Command -->
+  <text x="104" y="268" font-family="monospace" font-size="24" fill="#98c379">ls -la</text>
+  
+  <!-- Output -->
+  <text x="104" y="310" font-family="monospace" font-size="20" fill="#5c6370">drwxr-xr-x  user  group  4096</text>
+  <text x="104" y="344" font-family="monospace" font-size="20" fill="#61afef">-rw-r--r--  user  group  file.txt</text>
+  
+  <!-- Cursor -->
+  <rect x="104" y="368" width="14" height="24" fill="#61afef">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Penguin -->
+  <ellipse cx="400" cy="430" rx="56" ry="46" fill="white" opacity="0.95"/>
+  <circle cx="400" cy="384" r="32" fill="white" opacity="0.95"/>
+  <circle cx="388" cy="376" r="5" fill="#282c34"/>
+  <circle cx="412" cy="376" r="5" fill="#282c34"/>
+  <path d="M 392 392 Q 400 400 408 392" stroke="#282c34" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
